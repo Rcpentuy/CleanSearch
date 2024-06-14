@@ -1,3 +1,8 @@
+document.addEventListener("DOMContentLoaded", function () {
+  // Set focus on the search box when the page loads
+  document.querySelector(".search-box").focus();
+});
+
 document
   .getElementById("search-form")
   .addEventListener("submit", function (event) {
