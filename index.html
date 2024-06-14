@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>CleanSearch</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="search-container">
+      <form id="search-form">
+        <input type="text" class="search-box" placeholder="Search..." />
+        <select id="search-source">
+          <option value="https://www.xiaohongshu.com/search_result?keyword=">
+            xhs
+          </option>
+          <option value="https://www.zhihu.com/search?type=content&q=">
+            zhihu
+          </option>
+          <option value="https://search.bilibili.com/all?keyword=">
+            bilibili
+          </option>
+          <option value="https://www.1point3acres.com/bbs/google_search.php?q=">
+            1pts
+          </option>
+          <option value="https://search.mcmod.cn/s?key=">mcmod</option>
+        </select>
+        <button type="submit">Go</button>
+      </form>
+    </div>
+    <script src="search.js"></script>
+  </body>
+</html>
